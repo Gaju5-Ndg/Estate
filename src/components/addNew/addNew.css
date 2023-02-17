@@ -1,0 +1,98 @@
+#addnew-body{
+    background-color: white;
+    height: fit-content;
+    width: calc(100% - 160px);
+    margin-left: 80px;
+    border: 1px solid rgba(128, 128, 128, 0.2);
+    border-radius: 3px;
+    
+}
+.new-credentials-combo{
+    height: fit-content;
+    width: 32%;
+    margin-top: 15px;
+}
+#addnew-basic-info-title{
+    margin-top: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+}
+#addnew-basic-info-mainbody{
+    margin-left: 20px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.credential-title{
+    color: grey;
+    font-size: 13px;
+    margin-top: 5px;
+}
+.main-credential{
+    display: flex;
+    height: fit-content;
+    width: calc(100% - 50px);
+    border: 1px solid rgba(128, 128, 128, 0.2);
+    border-radius: 3px;
+    margin-top: 10px;
+    background-color: #F5F7FB;
+}
+.credential-icon-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    color: #1877F2;
+    height: 40px;
+    width: 50px;
+    border-right: 1px solid rgba(128, 128, 128, 0.2);
+}
+.credential-icon-option{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    color: #1877F2;
+    height: 40px;
+    width: 50px;
+}
+.credential-desc-input{
+    padding: 0px 20px;
+    color: grey;
+    border: none;
+    height: 40px;
+    width: calc(100% - 40px);
+    background-color: transparent;
+}
+.credential-desc-option{
+    padding: 0px 20px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: grey;
+    border: none;
+    height: 40px;
+    width: calc(100% - 40px);
+    background-color: transparent;
+}
+#addnew-basic-info-mainbody #option{
+    cursor: pointer;
+}
+#submit-credentials-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 140px;
+    margin-bottom: 15px;
+    border: none;
+    color: white;
+    background-color: #12264D;
+    margin-left: calc(50% - 70px);
+    border-radius: 3px;
+    cursor: pointer;
+}

@@ -1,0 +1,174 @@
+#background{
+    z-index: 1;
+    position: fixed;
+    min-height: 100vh;
+    min-width: 100%;
+    background-color: rgba(0, 0, 0,0.85);
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+#login-popup{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 89vh;
+    padding: 10px 26px;
+    width: 19vw;
+    line-height: 26px;
+    margin-top: 4vh;
+    border-radius: 3px;
+}
+#popuphide{
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+#logintitle{
+    font-size: 22px;
+    font-weight: 200;
+    margin-top: 4px;
+    margin-bottom: 18px;
+}
+#newbie{
+    font-size: 17px;
+    font-weight: 300;
+    color: grey;
+}
+#newbie span{
+    cursor: pointer;
+    color: rgb(29, 29, 29);
+}
+#popup-login-form{
+    height: 220px;
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 300;
+    color: rgb(29, 29, 29);
+    border-bottom: 1px solid #D5D9DD;
+}
+.popup-form input{
+    margin-top: 5px;
+    width: calc(100% - 32px);
+    height: 36px;
+    border: 1px solid #D5D9DD;
+    border-radius: 3px;
+    padding: 0px 16px;
+}
+.popup-buttons{
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+    padding: 12px 0px;
+    background-color: #041330;
+    border: none;
+    color: white;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 3px;
+    cursor: pointer;
+}
+#login-with-fb{
+    height: 40px;
+    width: 100%;
+    background-color: #5397f0;
+    color: white;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    font-size: 13px;
+    margin-top: 16px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.fb-google-icon{
+    font-size: 20px;
+    margin-left: 8px;
+    border-radius: 3px;
+}
+#login-with-fb span{
+    width: calc(100% - 28px);
+    text-align: center;
+}
+#login-with-google{
+    height: 40px;
+    width: 100%;
+    background-color: #C63D2D;
+    color: white;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    font-size: 13px;
+    margin-top: 16px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+#login-with-google span{
+    width: calc(100% - 28px);
+    text-align: center;
+}
+#forget{
+    margin-top: 40px;
+    font-size: 12px;
+    font-weight: 300;
+    cursor: pointer;
+}
+#create-account-popup{
+    display: none;
+    flex-direction: column;
+    background-color: white;
+    height: 90vh;
+    padding: 10px 26px;
+    width: 19vw;
+    line-height: 26px;
+    margin-top: 4vh;
+    border-radius: 3px;
+}
+#popup-newbie-form{
+    height: fit-content;
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 300;
+    color: rgb(29, 29, 29);
+}
+#popup-newbie-form .newbie-double{
+    display: flex;
+    gap: 7px;
+}
+#popup-newbie-form span{
+    color: red;
+}
+#terms-label{
+    color: grey;
+    margin-top: 10px;margin-left: 4px;
+    font-size: 15px;
+}
+#popup-newbie-form #terms{
+    color: black;
+}
+#popup-newbie-form #terms:hover{
+    color: grey;
+    cursor: pointer;
+}
+#acception{
+    display: flex;
+}
+#accept-checkbox{
+    width: 14px;
+}
+#forgot-password-popup{
+    display: none;
+    height: 47vh;
+    flex-direction: column;
+    background-color: white;
+    padding: 10px 26px;
+    width: 19vw;
+    line-height: 26px;
+    margin-top: 4vh;
+    border-radius: 3px;
+}
+#forgot-password-form{
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 300;
+}
