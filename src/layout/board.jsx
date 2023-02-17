@@ -29,11 +29,11 @@ ChartJS.register(
   );
 
   const data = {
-    labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+    labels: ['Pink', 'LightBlue', 'Orange', 'Blue', 'Violet', 'Pink'],
     datasets: [
       {
         label: '# of Votes',
-        data: [12, 19, 3, 5, 2, 3],
+        data: [19, 10, 7, 3, 1, 18],
         backgroundColor: [
           'rgba(255, 99, 132, 0.2)',
           'rgba(54, 162, 235, 0.2)',
@@ -81,7 +81,7 @@ export const Board = ()=>{
                         Listing Views
                     </div>
                     <div className="generaldashboard-nums">
-                        1056
+                        1000
                         <span style={{fontSize:11,color:"grey",wordSpacing:2,marginLeft:3}}>(<span style={{color:"#59C0AB"}}>+356</span> this week)</span>
                     </div>
                 </div>
@@ -90,10 +90,10 @@ export const Board = ()=>{
                         <TbMessages/>
                     </div>
                     <div className="generaldashboard-title">
-                        Your Reviews
+                        The reviews
                     </div>
                     <div className="generaldashboard-nums">
-                        357
+                        1000
                         <span style={{fontSize:11,color:"grey",wordSpacing:2,marginLeft:3}}>(<span style={{color:"#59C0AB"}}>+12</span> this week)</span>
                     </div>
                 </div>
@@ -117,19 +117,19 @@ export const Board = ()=>{
                 </div>
             </div>
             <div id="last-activities">
-                Last Activities
+                Previous activities
                 <div className="dashboard-recent-activity" style={{marginTop:20}}>
                     <div className="recent-activity-close">
                         <RxCross2/>
                     </div>
                     <div className="activity-date">
                         <AiOutlineCalendar style={{color:"#6896FD",fontSize:18,marginRight:5}}/>
-                        28 May 2022
+                        5 october 2001
                     </div>
                     <div className="recent-activity-icon">
                         <TiTick/>
                     </div>
-                    <div className="activity-desc">Your listing <span style={{color:"#6896FD"}}>Urban Appartmes</span> has been approved!</div>
+                    <div className="activity-desc">listing <span style={{color:"#6896FD"}}>xxxxxx</span> xxxxx</div>
                 </div>
                 <div className="dashboard-recent-activity">
                     <div className="recent-activity-close">
@@ -137,12 +137,12 @@ export const Board = ()=>{
                     </div>
                     <div className="activity-date">
                         <AiOutlineCalendar style={{color:"#6896FD",fontSize:18,marginRight:5}}/>
-                        28 May 2022
+                        2  feb 2021
                     </div>
                     <div className="recent-activity-icon">
                         <TiMessage/>
                     </div>
-                    <div className="activity-desc">Someone left a review on <span style={{color:"#6896FD"}}>Park central</span> Listing!</div>
+                    <div className="activity-desc">Ange got her new house <span style={{color:"#6896FD"}}></span> xxxx</div>
                 </div>
                 <div className="dashboard-recent-activity">
                     <div className="recent-activity-close">
@@ -150,12 +150,12 @@ export const Board = ()=>{
                     </div>
                     <div className="activity-date">
                         <AiOutlineCalendar style={{color:"#6896FD",fontSize:18,marginRight:5}}/>
-                        28 May 2022
+                        2 feb 2021
                     </div>
                     <div className="recent-activity-icon">
                         <AiOutlineHeart/>
                     </div>
-                    <div className="activity-desc"><span style={{color:"#6896FD"}}>Fider Mamby</span> Bookmarked Your <span style={{color:"#6896FD"}}>Holiday Home</span> Listing!</div>
+                    <div className="activity-desc"><span style={{color:"#6896FD"}}>Hello</span> i left <span style={{color:"#6896FD"}}>my home</span> xxxx</div>
                 </div>
             </div>
         </div>

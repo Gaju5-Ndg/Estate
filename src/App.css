@@ -24,11 +24,11 @@ body {
   height: 100%;
 } 
 
-.logo {
+/* .logo {
   font-size: 2rem;
   font-weight: 900;
   color: rgb(34, 34, 34);
-}
+} */
 
 nav {
   display: flex;
